@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+     <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    {{>header}}
+    <section>
+        <div>
+            <form id="formId">
+                <label for="">Enter the Location</label>
+                <input type="text" id="location" placeholder="Enter the location" >
+                {{!-- <input type="text" id="temperature" placeholder="output" >
+                <input type="text" id="place" placeholder="output" > --}}
+                <button>Search</button>
+            </form>
+            <p id="temperature"></p>
+            <p id="location"></p>
+        </div>
+    </section>
+    {{>footer}}
+
+     <script src="/js/app.js"></script>
+</body>
+</html>

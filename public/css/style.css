@@ -1,0 +1,107 @@
+body{
+   margin: 0px;
+   padding : 0px;
+   border : 0px;
+}
+
+h1{
+  margin-top: 60px;
+  margin-left: 15%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: grey;
+}
+
+nav{
+  margin-top: 20px;
+  margin-left: 15%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a{
+  text-decoration : none;
+  color : grey;
+  padding-left: 0px;
+  padding-right: 10px;
+  cursor: pointer;
+  /* padding: 10px; */
+}
+
+h5{
+  margin-top: 10%;
+  margin-left: 15%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: grey;
+}
+
+section{
+  position: relative;
+   width: 90%;
+   align-items: center;
+   justify-content: center;
+}
+
+div{
+ 
+  margin-top: 20px;
+  margin-left: 40%;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  border: none;
+  box-shadow: 10px 10px 18px #888888;
+  border-radius: 30px;
+}
+
+form{
+  margin-left:20px ;
+  margin-top: 50px;
+  padding-top: 25px;
+}
+
+label{
+  font-size: 30px;
+  margin-top: 9px;
+}
+
+input{
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius: 10px;
+}
+
+button{
+  display: block;
+  margin:auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  box-shadow:5px 5px 8px #888888 ;
+}
+button:hover{
+  padding: 11px;
+}
+
+@media screen and (max-width:900px) {
+    div{
+      margin-left: 10%;
+      width :100%
+    }
+} 
+
+@media screen and (max-width:400px) {
+  div{
+    margin-left: 10px;
+   }
+}
+
+@media screen and (max-width:300px) {
+  input{
+    width: 183px;
+   }
+   label{
+    font-size: 20px;
+   }
+}
